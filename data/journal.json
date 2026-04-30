@@ -1,0 +1,19 @@
+{
+    "1": [
+        {
+            "date": "2026-05-01",
+            "timestamp": "2026-04-30 23:02",
+            "author": "Manager",
+            "type": "Monthly 1-on-1",
+            "tags": [
+                "leadership",
+                "communication"
+            ],
+            "content": "Discussed Q2 goals and leadership training progress.",
+            "actions": [
+                "Enroll in Advanced Leadership course",
+                "Review team feedback"
+            ]
+        }
+    ]
+}

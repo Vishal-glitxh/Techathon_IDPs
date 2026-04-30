@@ -1,0 +1,26 @@
+Employee_ID,Employee_Name,Experience_Years,Leadership,Technical,Communication,Performance_Score,Role,Assigned_Person,Role_Leadership,Role_Technical,Role_Communication
+201,Aarav,6,5,2,1,4.8,Manager,Alok Verma,5,4,4
+202,Ishita,5,2,1,3,2.6,Team Lead,Priya Nair,4,3,4
+203,Kabir,1,5,1,5,4.8,Senior Engineer,Rahul Das,3,5,3
+204,Meera,1,1,3,2,4.6,Manager,Alok Verma,5,4,4
+205,Rohan,4,5,2,1,2.4,Team Lead,Priya Nair,4,3,4
+206,Sneha,5,3,2,5,3.4,Senior Engineer,Rahul Das,3,5,3
+207,Aditya,1,3,5,2,2.8,Manager,Alok Verma,5,4,4
+208,Pooja,6,4,5,3,4.7,Team Lead,Priya Nair,4,3,4
+209,Karthik,9,1,5,1,3.8,Senior Engineer,Rahul Das,3,5,3
+210,Neha,10,1,4,4,2.4,Manager,Alok Verma,5,4,4
+211,Varsha,1,5,1,1,4.0,Team Lead,Priya Nair,4,3,4
+212,Ritvik,6,3,5,2,4.6,Senior Engineer,Rahul Das,3,5,3
+213,Tanvi,1,3,1,1,4.2,Manager,Alok Verma,5,4,4
+214,Arnav,10,3,4,3,3.9,Team Lead,Priya Nair,4,3,4
+215,Simran,8,2,2,1,3.5,Senior Engineer,Rahul Das,3,5,3
+216,Devansh,4,3,5,3,3.6,Manager,Alok Verma,5,4,4
+217,Ananya,4,3,4,4,4.8,Team Lead,Priya Nair,4,3,4
+218,Siddharth,4,5,2,1,2.1,Senior Engineer,Rahul Das,3,5,3
+219,Nisha,4,4,3,3,4.1,Manager,Alok Verma,5,4,4
+220,Harsha,9,5,1,2,4.9,Team Lead,Priya Nair,4,3,4
+221,Yash,7,5,2,1,3.3,Senior Engineer,Rahul Das,3,5,3
+222,Divya,7,4,5,1,3.6,Manager,Alok Verma,5,4,4
+223,Krishna,6,5,5,5,4.1,Team Lead,Priya Nair,4,3,4
+224,Ayesha,4,1,4,2,4.0,Senior Engineer,Rahul Das,3,5,3
+225,Rituraj,4,4,2,1,2.8,Manager,Alok Verma,5,4,4
