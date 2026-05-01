@@ -43,14 +43,19 @@ def perform_gap_analysis(employees_path, roles_path):
         else:
             employees['Assigned_Role'] = "Unknown"
     
-    # Merge roles data for requirement comparison
-    df = employees.merge(roles, left_on='Assigned_Role', right_on='Role', suffixes=('', '_Req'))
+    # Merge roles data for requirement comparison (Left join to preserve ALL employees)
+    df = employees.merge(roles, left_on='Assigned_Role', right_on='Role', how='left', suffixes=('', '_Req'))
     
     # Calculate gaps: max(0, role - employee)
     for skill in ['Leadership', 'Technical', 'Communication']:
         req_col = f'{skill}_Req'
-        if req_col not in df.columns: df[req_col] = 3 # Default req
-        df[f'{skill}_Gap'] = (df[req_col] - df[skill]).clip(lower=0)
+        # Fill missing requirements with a default value (e.g., 3) if the role wasn't found
+        if req_col in df.columns:
+            df[req_col] = df[req_col].fillna(3)
+        else:
+            df[req_col] = 3
+            
+        df[f'{skill}_Gap'] = (df[req_col] - df[skill].fillna(0)).clip(lower=0)
     
     # Weighted score: 0.4 * leadership + 0.3 * technical + 0.3 * communication
     df['Weighted_Score'] = (0.4 * df['Leadership'].fillna(0) + 
